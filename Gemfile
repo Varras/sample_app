@@ -78,8 +78,8 @@ end
 
 #Included from tutorial to run this on heroku
 group :production do
-  gem 'pg',  '0.20.0'
-  gem 'fog', '1.42'
+  gem 'pg',  '1.1.4'
+  gem 'fog', '2.2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
