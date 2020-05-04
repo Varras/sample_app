@@ -39,9 +39,9 @@ gem 'mini_magick', '~> 4.8'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # List of GEMS from learnenough tutorial
-gem 'faker',                   '1.7.3'
+gem 'faker',                   '2.1.2'
 gem 'carrierwave',             '1.2.2'
-gem 'will_paginate',           '3.1.6'
+gem 'will_paginate',           '3.1.8'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass',          '>=3.4.1'
 gem 'jquery-rails',            '4.3.1'
@@ -70,9 +70,9 @@ group :test do
   gem 'chromedriver-helper'
   #Included from tutorial
   gem 'rails-controller-testing', '1.0.2'
-  gem 'minitest',                 '5.14.0'
-  gem 'minitest-reporters',       '1.1.14'
-  gem 'guard',                    '2.14.1'
+  gem 'minitest',                 '5.11.3'
+  gem 'minitest-reporters',       '1.3.8'
+  gem 'guard',                    '2.16.2'
   gem 'guard-minitest',           '2.4.6'
 end
 
