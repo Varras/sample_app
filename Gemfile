@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.12'
 
 # Use ActiveStorage variant
-gem 'mini_magick', '~> 4.8'
+gem 'mini_magick', '~> 4.9.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -39,12 +39,14 @@ gem 'mini_magick', '~> 4.8'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # List of GEMS from learnenough tutorial
-gem 'faker',                   '2.1.2'
-gem 'carrierwave',             '1.2.2'
-gem 'will_paginate',           '3.1.8'
-gem 'bootstrap-will_paginate', '1.0.0'
-gem 'bootstrap-sass',          '>=3.4.1'
-gem 'jquery-rails',            '4.3.1'
+gem 'faker',                      '2.1.2'
+gem 'carrierwave',                '1.2.2'
+gem 'will_paginate',              '3.1.8'
+gem 'bootstrap-will_paginate',    '1.0.0'
+gem 'bootstrap-sass',             '>=3.4.1'
+gem 'jquery-rails',               '4.3.1'
+gem 'active_storage_validations', '0.8.2'
+gem 'image_processing',           '1.9.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
